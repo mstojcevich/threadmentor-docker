@@ -2,7 +2,7 @@ FROM centos:centos7
 MAINTAINER mstojcevich@users.noreply.github.com
 
 # Install dev stuff
-RUN yum -y group install "Development Tools"
+RUN yum -y install binutils gcc gcc-c++ make
 
 # Install EPEL, necessary for GTK+1.2
 RUN yum -y install epel-release && \

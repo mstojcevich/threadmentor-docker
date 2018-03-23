@@ -1,4 +1,4 @@
-#1 /bin/bash
+#!/usr/bin/env bash
 
 # Allow X11 connections from within the container
 xhost local:root
